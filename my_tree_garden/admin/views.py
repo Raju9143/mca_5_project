@@ -2,4 +2,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 def index(request):
-    return HttpResponse("<b>gandu</b>")
+    return HttpResponse("<b>It is admin index page</b>")
